@@ -1,6 +1,6 @@
 .project {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   gap: 20px;
   max-width: 800px;
@@ -12,7 +12,7 @@
 }
 
 .project a {
-  display: inline-block; /* keeps the link only as big as the image */
+  display: inline-block; 
   margin: 0;
   padding: 0;
 }
@@ -23,7 +23,7 @@
   border: 2px solid rgb(126, 14, 201);
   border-radius: 8px;
   display: block;
-  margin: 0; /* removes any outside spacing */
+  margin: 0; 
 }
 
 .project-text {
