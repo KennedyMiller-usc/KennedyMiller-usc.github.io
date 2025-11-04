@@ -11,12 +11,19 @@
   background-color: #ffffff;
 }
 
+.project a {
+  display: inline-block; /* keeps the link only as big as the image */
+  margin: 0;
+  padding: 0;
+}
+
 .project img {
   width: 100px;
   height: auto;
   border: 2px solid rgb(126, 14, 201);
   border-radius: 8px;
-  margin-left: 0;
+  display: block;
+  margin: 0; /* removes any outside spacing */
 }
 
 .project-text {
