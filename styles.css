@@ -6,3 +6,11 @@ h1 {
 color: #1b1a1a;
 text-align: center;
 }
+
+.project img {
+  width: 300px;         
+  height: auto;        
+  margin: 10px auto;
+  border: 2px solid rgb(126, 14, 201);
+  display: block;
+}
