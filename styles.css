@@ -15,21 +15,21 @@ a {
 
 .project {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;                 /* space between text & image */
-  margin: 20px 0;            /* vertical spacing between projects */
+  margin: 20px auto;
+  max-width: 800px; /* keeps it centered on the page */
 }
 
 .project img {
-  width: 100px;              /* make even smaller */
-  height: auto;              /* keep aspect ratio */
+  width: 100px;
+  height: auto;
   border: 2px solid rgb(126, 14, 201);
   border-radius: 8px;
-  margin: 0;                 /* remove auto centering so it sits right of text */
+  margin-left: 20px;
 }
 
 .project p {
-  margin: 0;
+  margin: 5px 0;
   text-align: left;
-  flex: 1;                   /* let paragraph use remaining space */
 }
