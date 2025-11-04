@@ -5,9 +5,16 @@
   max-width: 800px;
   margin: 20px auto;
   padding: 15px;
-  border: 2px solid rgb(126, 14, 201);  /* your purple-border color */
+  border: 2px solid rgb(126, 14, 201);
   border-radius: 8px;
-  background-color: #ffffff;  /* white background */
+  background-color: #ffffff;
+}
+
+.project img {
+  width: 100px;
+  height: auto;
+  border: 2px solid rgb(126, 14, 201);
+  border-radius: 8px;
 }
 
 .project-text {
@@ -15,19 +22,16 @@
 }
 
 .project-text h3 {
-  margin: 0 0 8px 0;
   color: rgb(126, 14, 201);
+  margin: 0 0 8px 0;
 }
 
 .project-text p {
-  margin: 0;
   color: #1b1a1a;
+  margin: 0;
 }
 
-.project-image img {
-  width: 100px;   /* small size */
-  height: auto;
-  display: block;
-  border: 2px solid rgb(126, 14, 201);
-  border-radius: 8px;
+a {
+  text-decoration: none;
+  color: rgb(126, 14, 201);
 }
