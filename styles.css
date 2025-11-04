@@ -8,9 +8,10 @@ text-align: center;
 }
 
 .project img {
-  width: 20px;         
-  height: auto;        
+  width: 160px;          /* Matches the small style from example site */
+  height: auto;          /* Keeps image proportionate */
   margin: 10px auto;
   border: 2px solid rgb(126, 14, 201);
   display: block;
+  border-radius: 8px;    /* Optional: adds slightly rounded corners */
 }
