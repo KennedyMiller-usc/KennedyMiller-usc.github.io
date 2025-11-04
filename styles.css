@@ -13,12 +13,15 @@ a {
   color: purple;
 }
 
+/* ---- FIXED PROJECT LAYOUT ---- */
 .project {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 20px auto;
-  max-width: 800px; /* keeps it centered on the page */
+  justify-content: space-between; /* pushes image to the right */
+  max-width: 800px;
+  margin: 20px auto; /* centers the whole row on the page */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
 .project img {
